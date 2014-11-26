@@ -85,7 +85,7 @@
   contact:
   - 18f/foia/issues
   stack:
-  team: majma, victor, eric
+  team: majma, victor, eric, jackie, khandelwal, gabriel.ramirez, jtag
   licenses:
     foia: Public Domain (CC0)
     foia-hub: Public Domain (CC0)
@@ -111,7 +111,7 @@
   contact:
   - 18F/FEC/issues
   stack:
-  team: majma, manger, jen, amos, sean, catherine, theresa
+  team: majma, manger, jen, sean, catherine, theresa, lindsay, micah
   licenses:
     openFEC: Public Domain (CC0)
     FEC: Public Domain (CC0)
