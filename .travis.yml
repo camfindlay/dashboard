@@ -1,25 +1,26 @@
+sudo: false
+
 language: ruby
 rvm:
-  - 2.1.2
+  - 2.2.3
 
-install:
-  - gem install jekyll
-  - gem install jekyll-sitemap
-  - gem install bourbon
+before_install: npm install
 
-script: "LANG=\"en_US.UTF-8\" LC_ALL=\"en_US.UTF-8\" jekyll build"
+script: "./go ci_build"
+
+branches:
+  only:
+  - staging
+  - production
+
+git:
+  submodules: false
 
 notifications:
   email:
     recipients:
-      - leah.bannon@gsa.gov
-      - michelle.hertzfeld@gsa.gov
       - gregory.boone@gsa.gov
     on_success: change
     on_failure: change
 
-branches:
-  only:
-    - gh-pages
-    - production
-    - staging
+cache: bundler

@@ -1,0 +1,30 @@
+---
+name: cloud.gov
+full_name: cloud.gov Platform-As-A-Service
+stage: alpha
+description: cloud.gov includes a Platform-as-a-Service (PaaS) specifically built for government, based on the open source Cloud Foundry. It provides a secure, scalable platform for teams to build and host their application or website. It can help development teams work faster and cheaper by handling much of their deployment complexity. The cloud.gov platform is currently in a small pilot program, but we will be expanding access over time.
+partners:
+- 18F
+- GSA
+impact: Gives government teams the ability to develop, run, and manage web applications without the complexity and cost of building and maintaining infrastructure.
+licenses:
+  cg-landing:
+    name: CC0
+    url: https://github.com/18F/cg-landing/blob/master/LICENSE.md
+blog:
+- cloud-gov
+links:
+- url: https://cloud.gov/
+  text: cloud.gov
+- url: https://18f.storiesonboard.com/m/gov-dev
+  text: Roadmap/ChangeLog story map (in StoriesOnBoard)
+- url: https://trello.com/b/ChGzyepo/gov-dev
+  text: Sprint Status (in Trello)
+- url: https://www.google.com/calendar/embed?src=gsa.gov_0samf7guodi7o2jhdp0ec99aks%40group.calendar.google.com&ctz=America/Los_Angeles
+  text: Project Calendar (standups, reviews, and planning meetings)
+contact:
+- url: mailto:bret.mogilefsky@gsa.gov
+  text: Bret Mogilefsky
+github:
+  name: 18F/cg-landing
+  description: 18F landing page for cloud.gov

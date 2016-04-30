@@ -1,0 +1,18 @@
+---
+name: dashboard
+full_name: Dashboard
+stage: live
+description: 18F, as part of it's commitment to working in the open, needed a way to catalog and allow the public to track our work. We developed the 18F Dashboard to track our projects' status and to give more transparency and insight into our work and values.
+impact: Partner agencies and members of the public can better understand our work.
+licenses:
+  dashboard:
+    name: CC0-1.0
+    url: https://github.com/18F/team_api/blob/master/LICENSE.md
+links:
+- url: https://18f.gsa.gov/dashboard/
+  text: Live 18F Dashboard
+contact:
+- url: mailto:gregory.boone@gsa.gov
+  text: Greg Boone
+partners:
+- 18F

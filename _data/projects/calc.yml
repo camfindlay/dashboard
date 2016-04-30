@@ -1,0 +1,23 @@
+---
+name: calc
+github:
+- 18F/calc
+description: The Contract Awarded Labor Category (CALC) tool helps the federal contracting community make smarter, faster buying decisions by allowing them to search for hourly labor rates across numerous government contracts. The CALC tool is helping contracting officers move from paper-based research to simple, efficient online search.
+partners:
+- General Services Administration
+impact: Saves contracting officers in the federal government hours of work every week and provides them with better data. By having a tool that understands fair and reasonable prices, contracting officers will be better equipped to negotiate with vendors, which will ensure that the government is spending taxpayer dollars wisely and in the most efficient way.
+stage: live
+milestones:
+- 'November 2014: Initial discovery stage begins'
+- 'November 2014: Begin building alpha'
+- 'March 2015: Name changed from "Hourglass" to "CALC"'
+- 'May 2015: Public beta launched'
+- 'July 2015: Second release with price analysis tools, status changed to live'
+contact:
+- nicholas.brethauer@gsa.gov
+licenses:
+  mirage: Public Domain (CC0)
+links:
+- https://trello.com/b/LjXJaVbZ/hourglass
+- https://calc.gsa.gov
+full_name: CALC
